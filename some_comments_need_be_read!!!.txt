@@ -1,0 +1,10 @@
+the logig(rules) of implementation of game-model:
+!1! the abilities of personages to walk, fly or both fly and walk mean that some of them can fight with personages of concrete type, or not:
+personages who can walk(ork,troll) can fight with personages who can walk too, or both walk and fly;
+personages who can fly (elph) can fight with personages who can fly too, or both walk and fly;
+personages who can both walk and fly(pegas,garpy,vampire,witch) can fight with all the types of characters;
+!2! some additional rules:
+personages can't fight with other personages of the same type(meaning that ork can't fight with ork for example), exept witches(they can fight with each other)
+pegas and garpy are friend races, so they don't fight each other
+trolls are slaves of witches, so they don't attack witches, but witches can attack trolls
+
